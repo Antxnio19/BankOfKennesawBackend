@@ -2,6 +2,8 @@ package edu.kennesawState.BankOfKennesaw.DTO;
 
 public class SingInDTO {
 	
+
+
 	private String username;
 	private String password;
 	
@@ -32,5 +34,8 @@ public class SingInDTO {
 	}
 	
 	
-
+	@Override
+	public String toString() {
+		return "SingInDTO [username=" + username + ", password=" + password + "]";
+	}
 }
